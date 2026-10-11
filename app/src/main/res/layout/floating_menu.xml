@@ -1,0 +1,18 @@
+package com.example.autoclicker.accessibility
+
+import android.accessibilityservice.AccessibilityService
+import android.view.accessibility.AccessibilityEvent
+
+class AutoClickAccessibilityService : AccessibilityService() {
+    override fun onServiceConnected() {
+        super.onServiceConnected()
+    }
+
+    override fun onAccessibilityEvent(event: AccessibilityEvent?) {
+        // Hook for later integration with screen detection, clicks and automation.
+    }
+
+    override fun onInterrupt() {
+    // Stub
+    }
+}

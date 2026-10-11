@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#1B2430"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutoClicker"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStartAssist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IA Assist" />
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF3B30"
+        android:text="Enregistrer" />
+
+    <Button
+        android:id="@+id/btnLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bibliothèque" />
+</LinearLayout>
